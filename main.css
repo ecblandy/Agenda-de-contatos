@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Righteous', cursiva;
+  font-weight: normal;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #140033;
+}
+
+img {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  padding-right: 8px;
+  
+}
+
+header {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 30px;
+  font-weight: normal;
+  font-family: 'Bungee', cursive;
+  display: inline-block;
+  color: #ef5350;
+}
+
+.container {
+  border: solid 2px black;
+  height: 500px;
+  width: 600px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #131313;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+input {
+  height: 40px;
+  width: 130px;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  margin: 3px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#btn-add {
+  background-color: #ef5350;
+  color: #020000;
+  font-size: 15px;
+  font-weight: normal;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 5px;
+  height: 40px;
+  width: 95px;
+}
+
+#btn-add:hover {
+  background-color: rgb(53, 0, 27);
+  color: rgb(255, 255, 255);
+}
+
+table {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table th {
+  border-bottom: 3px solid #fff;
+  color: #ef5350;
+  padding: 0 50px 0 50px;
+  font-size: 30px;
+}
+
+table td {
+  border-bottom: 3px solid #fff;
+  color: #ef5350;
+  padding: 25px 50px 0 50px;
+  font-size: 22px;
+}
+
+#qtde-contato,
+#total-contato {
+  color: #ef5350;
+}
