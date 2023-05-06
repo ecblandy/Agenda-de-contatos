@@ -17,7 +17,7 @@ function addContact() {
   const nome = document.getElementById('nome-contato')
   const tel = document.getElementById('tel-contato')
 
-  if (nomes.includes(nome.value) && telefones.includes(tel.value)) {
+  if (nomes.includes(nome.value) && telefones.includes(parseInt(tel.value))) {
     alert(`O nome ${nome.value} e ${tel.value} ja foi adicionado!`)
   } else {
     nomes.push(nome.value)
